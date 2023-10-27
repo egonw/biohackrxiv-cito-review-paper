@@ -8,6 +8,8 @@ authors:
   - name: Egon Willighagen
     affiliation: 1
     orcid: 0000-0000-0000-0000
+  - name: Et Al
+    affiliation: 1
 affiliations:
   - name: Dept of Biofinformatics - BiGCaT, NUTRIM, FHML, Maastricht University, The Netherlands
     index: 1
@@ -22,7 +24,7 @@ group: Project 5
 git_url: https://github.com/egonw/biohackrxiv-cito-review-paper
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: Egon Willighagen
+authors_short: Egon Willighagen, Et Al
 ---
 
 
