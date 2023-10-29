@@ -47,7 +47,7 @@ and more recently the Journal of Cheminformatics (purple). However, BioHackrXiv 
 
 # Citation Typing Ontology annotations
 
-In this paper we review how BioHackathon Europe 2022 authors have been using CiTO annotations.
+In this paper we review how *BioHackathon Europe 2022* authors have been using CiTO annotations.
 The authors took benefit from the CiTO support for Markdown developed by Krewinkel *et al.*
 [@usesMethodIn:Krewinkel2017Formatting].
 At the time of writing, six articles were associated with this 2022 edition of BioHackathon Europe
@@ -68,11 +68,13 @@ BioHackEU22 Report: Enhancing Research Data Management in Galaxy and Data Stewar
 
 # Discussion
 
-In retrospect, only seven different intention types have been used, fewer than in the articles
+In retrospect, only seven different intention types have been used (see Figure 2). This is fewer than in the articles
 published in the *Journal of Cheminformatics [@citesAsDataSource:Willighagen2023Two], but the total
 number of articles is also lower. Similar, however, is the willingness of authors in their
-willingness to annotate citations: in most articles all citations have been typed with
-their intention.
+willingness to annotate citations: most articles have all citations typed with their intentions.
+Only one article had two citations annotated with the already implied `cito:cites`.
+
+![Bubble chart with the citation intentions used by the *BioHackathon Europe 2022* papers.](./citationIntentions.png)
 
 
 ## Acknowledgements
