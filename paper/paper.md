@@ -54,6 +54,9 @@ At the time of writing, six articles were associated with this 2022 edition of B
 that had CiTO annotations (see Table 1,
 [https://scholia.toolforge.org/venue/Q123154374](https://scholia.toolforge.org/venue/Q123154374)).
 
+Table: Overview of *BioHackathon Europe 2022* reports with CiTO annotations.
+Percentages indicate the number of citations with an intention other than `cito:cites`.
+
 |**Article** |**Intentions** | **%CiTO** |
 ------------ |------------ |---
 An ETL pipeline to construct the Intrinsically Disordered Proteins Knowledge Graph (IDP-KG) using Bioschemas JSON-LD data dumps [@citesForInformation:Ammar2022ETL]|cito:extends, cito:usesDataFrom, cito:usesMethodIn|71%|
@@ -62,9 +65,6 @@ BioHackEU22 Report for Project 16: Make your own or favourite software available
 An evaluation of EDAM coverage in the Tools Ecosystem and prototype integration of Galaxy and WorkflowHub systems [@citesForInformation:Lamothe2023evaluation]|cito:usesDataFrom, cito:usesMethodIn, cito:describe|100%|
 Empowering the community with notebooks for bespoke microbiome analyses [@citesForInformation:Rogers2023Empowering]|cito:citesAsAuthority, cito:usesDataFrom, cito:usesMethodIn, cito:citesAsPotentialSolution|100%|
 BioHackEU22 Report: Enhancing Research Data Management in Galaxy and Data Stewardship Wizard by utilising RO-Crates [@citesForInformation:Eguinoa2023BioHackEU22]|cito:citesAsDataSource, cito:discusses, cito:usesMethodIn|100%|
-
-*Table 1*: Overview of *BioHackathon Europe 2022* reports with CiTO annotations.
-Percentages indicate the number of citations with an intention other than `cito:cites`.
 
 # Discussion
 
