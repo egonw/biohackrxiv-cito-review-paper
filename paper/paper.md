@@ -30,42 +30,25 @@ authors_short: Egon Willighagen, Et Al
 
 # Introduction
 
-As part of the BioHackathon Europe 2023, we here report...
+During the BioHackathon Europe 2021 we first starting working on Citation Typing Ontology (CITO,
+[http://purl.org/spar/cito/2018-02-16](http://purl.org/spar/cito/2018-02-16))
+support in BioHackrXiv articles [@citesAsAuthority:Willighagen2023CiTO].
+We continued this development with a new template developed during the BioHackathon Europe 2022
+([https://github.com/biohackrxiv/publication-template](https://github.com/biohackrxiv/publication-template)).
+It extends on earlier work by the Journal of Cheminformatics [@citesAsAuthority:Willighagen2020Adoption],
+which was the second journal with an article with explicit CiTO annotation,
+and the first to pilot it for a wider audience [@citesAsDataSource:Willighagen2023Two].
+Several other sources have been annotating citations with their intentions
+too, resulting in over 400 articles having annotated citations, of which 31
+have explicit annotations (see Figure 1) ([https://scholia.toolforge.org/cito/](https://scholia.toolforge.org/cito/)).
 
-# Formatting
+![Figure 1: Histogram showing the number of articles with annotated citations per year. Most citations come from datasets (green),
+and more recently the Journal of Cheminformatics (purple). However, BioHackrXiv is a growing source of annotated citations (orange).](./citoOverTime.png)
 
-This document use Markdown and you can look at [this tutorial](https://www.markdowntutorial.com/).
 
-## Subsection level 2
-
-Please keep sections to a maximum of only two levels.
-
-## Tables and figures
-
-Tables can be added in the following way, though alternatives are possible:
-
-| Header 1 | Header 2 |
-| -------- | -------- |
-| item 1 | item 2 |
-| item 3 | item 4 |
-
-Table: Note that table caption is automatically numbered.
-
-A figure is added with:
-
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
-
-# Other main section on your manuscript level 1
-
-Lists can be added with:
-
-1. Item 1
-2. Item 2
 
 # Citation Typing Ontology annotation
 
-You can use [CiTO](http://purl.org/spar/cito/2018-02-12) annotations, as explained in [this BioHackathon Europe 2021 write up](https://raw.githubusercontent.com/biohackrxiv/bhxiv-metadata/main/doc/elixir_biohackathon2021/paper.md) and [this CiTO Pilot](https://www.biomedcentral.com/collections/cito).
-Using this template, you can cite an article and indicate _why_ you cite that article, for instance DisGeNET-RDF [@citesAsAuthority:Queralt2016].
 
 Possible CiTO typing annotation include:
 
