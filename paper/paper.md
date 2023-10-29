@@ -88,16 +88,15 @@ and a paper from the *BioHackathon Germany 2022* [@citesAsEvidence:Arend2023Impr
 
 ![Bubble chart with the citation intentions used by the *BioHackathon Europe 2022* papers.](./citationIntentions.png)
 
+![Graph showing the citation network, restricted to citations with CiTO annotations.
+BioHackrXiv papers are shown in red.](./reuseNetwork.png)
+
 For hackathons particularly, the reuse of methods, data, and source code is important.
 Annotated citations can make such reuse networks visible. Figure 3 shows the network
 of typed citations by BioHackrXiv papers, for any BioHackathon. We immediately
 see several papers citing the same article. Those articles are likely more relevant
 than others. We therefore hope that participants of BioHackathons will continue to used
 CiTO annotations.
-
-![Graph showing the citation network, restricted to citations with CiTO annotations.
-BioHackrXiv papers are shown in red.](./reuseNetwork.png)
-
 
 ## Acknowledgements
 
