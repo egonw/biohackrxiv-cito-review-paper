@@ -42,7 +42,7 @@ Several other sources have been annotating citations with their intentions
 too, resulting in over 400 articles having annotated citations, of which 31
 have explicit annotations (see Figure 1) ([https://scholia.toolforge.org/cito/](https://scholia.toolforge.org/cito/)).
 
-![Figure 1: Histogram showing the number of articles with annotated citations per year. Most citations come from datasets (green),
+![Histogram showing the number of articles with annotated citations per year. Most citations come from datasets (green),
 and more recently the Journal of Cheminformatics (purple). However, BioHackrXiv is a growing source of annotated citations (orange).](./citoOverTime.png)
 
 
