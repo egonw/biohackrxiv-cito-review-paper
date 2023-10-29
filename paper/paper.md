@@ -30,28 +30,31 @@ authors_short: Egon Willighagen, Et Al
 
 # Introduction
 
-During the BioHackathon Europe 2021 we first starting working on Citation Typing Ontology (CITO,
+During the *BioHackathon Europe 2021*, the first work started on Citation Typing Ontology (CITO,
 [http://purl.org/spar/cito/2018-02-16](http://purl.org/spar/cito/2018-02-16), [@citesAsAuthority:usesMethodIn:CiTO])
 support in BioHackrXiv articles [@citesAsAuthority:Willighagen2023CiTO].
-We continued this development with a new template developed during the BioHackathon Europe 2022
-([https://github.com/biohackrxiv/publication-template](https://github.com/biohackrxiv/publication-template)).
-It extends on earlier work by the Journal of Cheminformatics [@citesAsAuthority:Willighagen2020Adoption],
-which was the second journal with an article with explicit CiTO annotation,
+We continued this development with a new template developed during the *BioHackathon Europe 2022*
+([https://github.com/biohackrxiv/publication-template](https://github.com/biohackrxiv/publication-template)). We took benefit from the CiTO support for Markdown developed by Krewinkel *et al.*
+[@usesMethodIn:Krewinkel2017Formatting] and used by the *Journal of Cheminformatics* [@citesAsAuthority:Willighagen2020Adoption]. This Springer Nature journal
+was the second journal with an article with explicit CiTO annotation,
 and the first to pilot it for a wider audience [@citesAsDataSource:Willighagen2023Two].
-Several other sources have been annotating citations with their intentions
-too, resulting in over 400 articles having annotated citations, of which 31
-have explicit annotations (see Figure 1, [https://scholia.toolforge.org/cito/](https://scholia.toolforge.org/cito/)).
+
+Explicit annotations in journal articles are not the only source of citation intention
+annotation and several other sources have been annotating citations with their
+intentions too. That include CiTO support in CiteULike [@citesAsEvidence:Willighagen2020Adoption]
+and in a dataset [@citesAsEvidence:Heibi2021Inputs].
+Together, this resulte in over 1,200 citation annotations from over 400 articles.
+Of these, 33 have explicit annotations (see Figure 1, [https://scholia.toolforge.org/cito/](https://scholia.toolforge.org/cito/)).
 
 ![Histogram showing the number of articles with annotated citations per year. Most citations come from datasets (green),
 and more recently the Journal of Cheminformatics (purple). However, BioHackrXiv is a growing source of annotated citations (orange).](./citoOverTime.png)
 
 # Citation Typing Ontology annotations
 
-In this paper we review how *BioHackathon Europe 2022* authors have been using CiTO annotations.
-The authors took benefit from the CiTO support for Markdown developed by Krewinkel *et al.*
-[@usesMethodIn:Krewinkel2017Formatting].
-At the time of writing, seven articles were associated with this 2022 edition of BioHackathon Europe
-that had CiTO annotations (see Table 1,
+In this paper we focus on articles in the *BioHackathon Europe 2022* proceedings
+where authors have used CiTO annotations.
+At the time of writing, seven articles had CiTO annotations the were associated
+with this 2022 edition of BioHackathon Europe series (see Table 1,
 [https://scholia.toolforge.org/venue/Q123154374](https://scholia.toolforge.org/venue/Q123154374)).
 
 Table: Overview of *BioHackathon Europe 2022* reports with CiTO annotations.
@@ -67,23 +70,27 @@ An evaluation of EDAM coverage in the Tools Ecosystem and prototype integration 
 Streamlining data brokering from Research Data Management platforms to ELIXIR Repositories [@citesForInformation:D2023Streamlining]|cito:citesAsAuthority, cito:usesDataFrom, cito:usesMethodIn|100%|
 BioHackEU22 Report: Enhancing Research Data Management in Galaxy and Data Stewardship Wizard by utilising RO-Crates [@citesForInformation:Eguinoa2023BioHackEU22]|cito:citesAsDataSource, cito:discusses, cito:usesMethodIn|100%|
 
+These seven articles used seven different intention types (see Figure 2). Of these,
+`cito:citesAsAuthority`, `cito:usesDataFrom`, and `cito:usesMethodIn` have been
+used the most. Two articles only use `cito:citesAsAuthority`. When authors decided
+to annotate citaitons, the willingness to do so is extensive:
+most articles have all citations typed with their intentions.
+Only one article had two citations annotated with the already implied `cito:cites`.
+
 # Discussion
 
-In retrospect, only seven different intention types have been used (see Figure 2). This is fewer than in the articles
-published in the *Journal of Cheminformatics* [@citesAsDataSource:Willighagen2023Two], but the total
-number of articles is also lower. Similar, however, is the willingness of authors in their
-willingness to annotate citations: most articles have all citations typed with their intentions.
-Only one article had two citations annotated with the already implied `cito:cites`.
+BioHackrXiv has now published published eleven articles annotated with CiTO annotations.
+Seven have been published as part of the *BioHackathon Europe 2022* proceedings, as
+discussed here. Four others papers had intention annotated too, including the paper
+that introduced CiTO annotation to BioHackrXiv [@citesAsEvidence:Willighagen2023CiTO],
+two papers from the *DBCLS BioHackathon 2023* in Japan [@citesAsEvidence:Pico2023BioHackJP;@citesAsEvidence:Aoki2023BioHackJP],
+and a paper from the *BioHackathon Germany 2022* [@citesAsEvidence:Arend2023Improving].
 
 ![Bubble chart with the citation intentions used by the *BioHackathon Europe 2022* papers.](./citationIntentions.png)
 
-It is not only in the *BioHackathon Europe 2022* reports that CiTO annotation is used. At the time
-of writing, four more papers in BioHackrXiv has intention annotation, including two papers
-from the DBCLS BioHackathon 2023 in Japan [@Pico2023BioHackJP;@Aoki2023BioHackJP],
-and a paper at the BioHackathon Germany 2022 [@Arend2023Improving].
-
 ## Acknowledgements
 
-We thank the authors of the six *BioHackathon Europe 2022* papers for the annotation of their citations.
+We thank all the authors of BioHackrXiv papers with CiTO for the annotation of their citations,
+and authors of the *BioHackathon Europe 2022* papers in particular.
 
 ## References
