@@ -71,7 +71,7 @@ Streamlining data brokering from Research Data Management platforms to ELIXIR Re
 BioHackEU22 Report: Enhancing Research Data Management in Galaxy and Data Stewardship Wizard by utilising RO-Crates [@citesForInformation:Eguinoa2023BioHackEU22]|cito:citesAsDataSource, cito:discusses, cito:usesMethodIn|100%|
 
 These seven articles used seven different intention types (see Figure 2). Of these,
-`cito:citesAsAuthority`, `cito:usesDataFrom`, and `cito:usesMethodIn` have been
+`cito:citesAsAuthority`, `cito:usesMethodIn`, and `cito:usesDataFrom` have been
 used the most. Two articles only use `cito:citesAsAuthority`. When authors decided
 to annotate citaitons, the willingness to do so is extensive:
 most articles have all citations typed with their intentions.
@@ -87,6 +87,17 @@ two papers from the *DBCLS BioHackathon 2023* in Japan [@citesAsEvidence:Pico202
 and a paper from the *BioHackathon Germany 2022* [@citesAsEvidence:Arend2023Improving].
 
 ![Bubble chart with the citation intentions used by the *BioHackathon Europe 2022* papers.](./citationIntentions.png)
+
+For hackathons particularly, the reuse of methods, data, and source code is important.
+Annotated citations can make such reuse networks visible. Figure 3 shows the network
+of typed citations by BioHackrXiv papers, for any BioHackathon. We immediately
+see several papers citing the same article. Those articles are likely more relevant
+than others. We therefore hope that participants of BioHackathons will continue to used
+CiTO annotations.
+
+![Graph showing the citation network, restricted to citations with CiTO annotations.
+BioHackrXiv papers are shown in red.](./reuseNetwork.png)
+
 
 ## Acknowledgements
 
