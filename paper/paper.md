@@ -50,7 +50,7 @@ and more recently the Journal of Cheminformatics (purple). However, BioHackrXiv 
 In this paper we review how *BioHackathon Europe 2022* authors have been using CiTO annotations.
 The authors took benefit from the CiTO support for Markdown developed by Krewinkel *et al.*
 [@usesMethodIn:Krewinkel2017Formatting].
-At the time of writing, six articles were associated with this 2022 edition of BioHackathon Europe
+At the time of writing, eight articles were associated with this 2022 edition of BioHackathon Europe
 that had CiTO annotations (see Table 1,
 [https://scholia.toolforge.org/venue/Q123154374](https://scholia.toolforge.org/venue/Q123154374)).
 
@@ -62,19 +62,23 @@ Percentages indicate the number of citations with an intention other than `cito:
 An ETL pipeline to construct the Intrinsically Disordered Proteins Knowledge Graph (IDP-KG) using Bioschemas JSON-LD data dumps [@citesForInformation:Ammar2022ETL]|cito:extends, cito:usesDataFrom, cito:usesMethodIn|71%|
 BioHackEU22 Project 22: Plant data exchange and standard interoperability [@citesForInformation:Arend2022BioHackEU22]|cito:citesAsAuthority|100%|
 BioHackEU22 Report for Project 16: Make your own or favourite software available on your cluster with EasyBuild/EESSI [@citesForInformation:Moretti2023BioHackEU22]|cito:citesAsAuthority|100%|
-An evaluation of EDAM coverage in the Tools Ecosystem and prototype integration of Galaxy and WorkflowHub systems [@citesForInformation:Lamothe2023evaluation]|cito:usesDataFrom, cito:usesMethodIn, cito:describe|100%|
 Empowering the community with notebooks for bespoke microbiome analyses [@citesForInformation:Rogers2023Empowering]|cito:citesAsAuthority, cito:usesDataFrom, cito:usesMethodIn, cito:citesAsPotentialSolution|100%|
+An evaluation of EDAM coverage in the Tools Ecosystem and prototype integration of Galaxy and WorkflowHub systems [@citesForInformation:Lamothe2023evaluation]|cito:usesDataFrom, cito:usesMethodIn, cito:describe|100%|
+Streamlining data brokering from Research Data Management platforms to ELIXIR Repositories [@citesForInformation:D2023Streamlining]|cito:citesAsAuthority, cito:usesDataFrom, cito:usesMethodIn|100%|
+Improving Metadata Collection and Aggregation in Plant Phenotyping Experiments with MIAPPE Wizard and DataPLANT [@citesForInformation:Arend2023Improving]|cito:citesAsAuthority|100%|
 BioHackEU22 Report: Enhancing Research Data Management in Galaxy and Data Stewardship Wizard by utilising RO-Crates [@citesForInformation:Eguinoa2023BioHackEU22]|cito:citesAsDataSource, cito:discusses, cito:usesMethodIn|100%|
 
 # Discussion
 
 In retrospect, only seven different intention types have been used (see Figure 2). This is fewer than in the articles
-published in the *Journal of Cheminformatics [@citesAsDataSource:Willighagen2023Two], but the total
+published in the *Journal of Cheminformatics* [@citesAsDataSource:Willighagen2023Two], but the total
 number of articles is also lower. Similar, however, is the willingness of authors in their
 willingness to annotate citations: most articles have all citations typed with their intentions.
 Only one article had two citations annotated with the already implied `cito:cites`.
 
 ![Bubble chart with the citation intentions used by the *BioHackathon Europe 2022* papers.](./citationIntentions.png)
+
+
 
 
 ## Acknowledgements
