@@ -31,7 +31,7 @@ authors_short: Egon Willighagen, Et Al
 # Introduction
 
 During the BioHackathon Europe 2021 we first starting working on Citation Typing Ontology (CITO,
-[http://purl.org/spar/cito/2018-02-16](http://purl.org/spar/cito/2018-02-16))
+[http://purl.org/spar/cito/2018-02-16](http://purl.org/spar/cito/2018-02-16), [@citesAsAuthority,usesMethodIn:CiTO])
 support in BioHackrXiv articles [@citesAsAuthority:Willighagen2023CiTO].
 We continued this development with a new template developed during the BioHackathon Europe 2022
 ([https://github.com/biohackrxiv/publication-template](https://github.com/biohackrxiv/publication-template)).
@@ -40,22 +40,29 @@ which was the second journal with an article with explicit CiTO annotation,
 and the first to pilot it for a wider audience [@citesAsDataSource:Willighagen2023Two].
 Several other sources have been annotating citations with their intentions
 too, resulting in over 400 articles having annotated citations, of which 31
-have explicit annotations (see Figure 1) ([https://scholia.toolforge.org/cito/](https://scholia.toolforge.org/cito/)).
+have explicit annotations (see Figure 1, [https://scholia.toolforge.org/cito/](https://scholia.toolforge.org/cito/)).
 
 ![Histogram showing the number of articles with annotated citations per year. Most citations come from datasets (green),
 and more recently the Journal of Cheminformatics (purple). However, BioHackrXiv is a growing source of annotated citations (orange).](./citoOverTime.png)
 
-# Citation Typing Ontology annotation
+# Citation Typing Ontology annotations
 
 In this paper we review how BioHackathon Europe 2022 authors have been using CiTO annotations.
+At the time of writing, six articles were associated with this 2022 edition of BioHackathon Europe
+that had CiTO annotations (see Table 1,
+[https://scholia.toolforge.org/venue/Q123154374](https://scholia.toolforge.org/venue/Q123154374)).
 
 |**Article** |**Intentions** | **%CiTO** |
 ------------ |------------ |---
+An ETL pipeline to construct the Intrinsically Disordered Proteins Knowledge Graph (IDP-KG) using Bioschemas JSON-LD data dumps [@citesForInformation:Ammar2022ETL]|cito:extends, cito:usesDataFrom, cito:usesMethodIn|71%|
+BioHackEU22 Project 22: Plant data exchange and standard interoperability [@citesForInformation:Arend2022BioHackEU22]|cito:citesAsAuthority|100%|
+BioHackEU22 Report for Project 16: Make your own or favourite software available on your cluster with EasyBuild/EESSI [@citesForInformation:Moretti2023BioHackEU22]|cito:citesAsAuthority|100%|
+An evaluation of EDAM coverage in the Tools Ecosystem and prototype integration of Galaxy and WorkflowHub systems [@citesForInformation:Lamothe2023evaluation]|cito:usesDataFrom, cito:usesMethodIn, cito:describe|100%|
 Empowering the community with notebooks for bespoke microbiome analyses [@citesForInformation:Rogers2023Empowering]|cito:citesAsAuthority, cito:usesDataFrom, cito:usesMethodIn, cito:citesAsPotentialSolution|100%|
-BioHackEU22 Report for Project 16: Make your own or favourite software available on your cluster with EasyBuild/EESSI [@citesForInformation:Moretti2023BioHackEU22]||100%|
+BioHackEU22 Report: Enhancing Research Data Management in Galaxy and Data Stewardship Wizard by utilising RO-Crates [@citesForInformation:Eguinoa2023BioHackEU22]|cito:citesAsDataSource, cito:discusses, cito:usesMethodIn|100%|
 
-
-Table: Overview of *BioHackathon Europe 2022* reports with CiTO annotations.
+*Table 1*: Overview of *BioHackathon Europe 2022* reports with CiTO annotations.
+Percentages indicate the number of citations with an intention other than `cito:cites`.
 
 
 * citesAsDataSource: when you point the reader to a source of data which may explain a claim
@@ -78,10 +85,6 @@ Table: Overview of *BioHackathon Europe 2022* reports with CiTO annotations.
 * disagreesWith
 * updates
 * citation: generic citation
-
-
-# Results
-
 
 # Discussion
 
