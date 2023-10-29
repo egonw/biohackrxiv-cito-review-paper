@@ -45,12 +45,18 @@ have explicit annotations (see Figure 1) ([https://scholia.toolforge.org/cito/](
 ![Histogram showing the number of articles with annotated citations per year. Most citations come from datasets (green),
 and more recently the Journal of Cheminformatics (purple). However, BioHackrXiv is a growing source of annotated citations (orange).](./citoOverTime.png)
 
-
-
 # Citation Typing Ontology annotation
 
+In this paper we review how BioHackathon Europe 2022 authors have been using CiTO annotations.
 
-Possible CiTO typing annotation include:
+|**Article** |**Intentions** | **%CiTO** |
+------------ |------------ |---
+Empowering the community with notebooks for bespoke microbiome analyses [@citesForInformation:Rogers2023Empowering]|cito:citesAsAuthority, cito:usesDataFrom, cito:usesMethodIn, cito:citesAsPotentialSolution|100%|
+BioHackEU22 Report for Project 16: Make your own or favourite software available on your cluster with EasyBuild/EESSI [@citesForInformation:Moretti2023BioHackEU22]||100%|
+
+
+Table: Overview of *BioHackathon Europe 2022* reports with CiTO annotations.
+
 
 * citesAsDataSource: when you point the reader to a source of data which may explain a claim
 * usesDataFrom: when you reuse somehow (and elaborate on) the data in the cited entity
