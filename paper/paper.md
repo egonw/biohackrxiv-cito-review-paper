@@ -31,7 +31,7 @@ authors_short: Egon Willighagen, Et Al
 # Introduction
 
 During the BioHackathon Europe 2021 we first starting working on Citation Typing Ontology (CITO,
-[http://purl.org/spar/cito/2018-02-16](http://purl.org/spar/cito/2018-02-16), [@citesAsAuthority,usesMethodIn:CiTO])
+[http://purl.org/spar/cito/2018-02-16](http://purl.org/spar/cito/2018-02-16), [@citesAsAuthority:usesMethodIn:CiTO])
 support in BioHackrXiv articles [@citesAsAuthority:Willighagen2023CiTO].
 We continued this development with a new template developed during the BioHackathon Europe 2022
 ([https://github.com/biohackrxiv/publication-template](https://github.com/biohackrxiv/publication-template)).
@@ -48,6 +48,8 @@ and more recently the Journal of Cheminformatics (purple). However, BioHackrXiv 
 # Citation Typing Ontology annotations
 
 In this paper we review how BioHackathon Europe 2022 authors have been using CiTO annotations.
+The authors took benefit from the CiTO support for Markdown developed by Krewinkel *et al.*
+[@usesMethodIn:Krewinkel2017Formatting].
 At the time of writing, six articles were associated with this 2022 edition of BioHackathon Europe
 that had CiTO annotations (see Table 1,
 [https://scholia.toolforge.org/venue/Q123154374](https://scholia.toolforge.org/venue/Q123154374)).
@@ -64,34 +66,17 @@ BioHackEU22 Report: Enhancing Research Data Management in Galaxy and Data Stewar
 *Table 1*: Overview of *BioHackathon Europe 2022* reports with CiTO annotations.
 Percentages indicate the number of citations with an intention other than `cito:cites`.
 
-
-* citesAsDataSource: when you point the reader to a source of data which may explain a claim
-* usesDataFrom: when you reuse somehow (and elaborate on) the data in the cited entity
-* usesMethodIn
-* citesAsAuthority
-* citesAsEvidence
-* citesAsPotentialSolution
-* citesAsRecommendedReading
-* citesAsRelated
-* citesAsSourceDocument
-* citesForInformation
-* confirms
-* documents
-* providesDataFor
-* obtainsSupportFrom
-* discusses
-* extends
-* agreesWith
-* disagreesWith
-* updates
-* citation: generic citation
-
 # Discussion
 
-...
+In retrospect, only seven different intention types have been used, fewer than in the articles
+published in the *Journal of Cheminformatics [@citesAsDataSource:Willighagen2023Two], but the total
+number of articles is also lower. Similar, however, is the willingness of authors in their
+willingness to annotate citations: in most articles all citations have been typed with
+their intention.
+
 
 ## Acknowledgements
 
-...
+We thank the authors of the six *BioHackathon Europe 2022* papers for annotation of their citations.
 
 ## References
