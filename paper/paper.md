@@ -1,30 +1,12 @@
 ---
-title: 'BioHackEU23 report: The use of the Citation Typing Ontology in BioHackrXiv preprints'
-title_short: 'BioHackEU23 #5: BioHackrXiv'
-tags:
-  - Citation Typing Ontology
-  - BioHackrXiv
-authors:
-  - name: Egon Willighagen
-    affiliation: 1
-    orcid: 0000-0000-0000-0000
-  - name: Et Al
-    affiliation: 1
-affiliations:
-  - name: Dept of Biofinformatics - BiGCaT, NUTRIM, FHML, Maastricht University, The Netherlands
-    index: 1
-date: 8 November 2023
+title: 'The use of the Citation Typing Ontology in BioHackrXiv preprints'
+title_short: 'CiTO use in BioHackrXiv'
+author:
+  - Egon Willighagen^[Dept of Biofinformatics - BiGCaT, NUTRIM, FHML, Maastricht University, The Netherlands], https://orcid.org/0000-0001-7542-0286
+date: 4 November 2023
 cito-bibliography: paper.bib
-event: BH23EU
-biohackathon_name: "BioHackathon Europe 2023"
-biohackathon_url:   "https://biohackathon-europe.org/"
-biohackathon_location: "Barcelona, Spain, 2023"
-group: Project 5
-# URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/egonw/biohackrxiv-cito-review-paper
-# This is the short authors description that is used at the
-# bottom of the generated paper (typically the first two authors):
-authors_short: Egon Willighagen, Et Al
+authors_short: Egon Willighagen
+geometry: margin=2.5cm
 ---
 
 
@@ -86,10 +68,9 @@ that introduced CiTO annotation to BioHackrXiv [@citesAsEvidence:Willighagen2023
 two papers from the *DBCLS BioHackathon 2023* in Japan [@citesAsEvidence:Pico2023BioHackJP;@citesAsEvidence:Aoki2023BioHackJP],
 and a paper from the *BioHackathon Germany 2022* [@citesAsEvidence:Arend2023Improving].
 
-![Bubble chart with the citation intentions used by the *BioHackathon Europe 2022* papers.](./citationIntentions.png)
+![Bubble chart with the citation intentions used by the *BioHackathon Europe 2022* papers.](./citationIntentions.png){ width=400px }
 
-![Graph showing the citation network, restricted to citations with CiTO annotations.
-BioHackrXiv papers are shown in red.](./reuseNetwork.png)
+![Graph showing the citation network, restricted to citations with CiTO annotations. BioHackrXiv papers are shown in red.](./reuseNetwork.png){ width=400px }
 
 For hackathons particularly, the reuse of methods, data, and source code is important.
 Annotated citations can make such reuse networks visible. Figure 3 shows the network
