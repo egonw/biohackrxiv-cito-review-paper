@@ -1,5 +1,5 @@
 ---
-title: 'The use of the Citation Typing Ontology in BioHackrXiv preprints'
+title: The use of the Citation Typing Ontology in BioHackrXiv preprints^[Copyright 2023 The Authors. CC-BY 4.0 International. https://doi.org/10.5281/zenodo.10072013]
 title_short: 'CiTO use in BioHackrXiv'
 author:
   - Egon Willighagen^[Dept of Biofinformatics - BiGCaT, NUTRIM, FHML, Maastricht University, The Netherlands], https://orcid.org/0000-0001-7542-0286
